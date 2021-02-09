@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.studyspringboot.ch6.UserDao">
+    <select id="getUser"  resultType="user">
+        select id, user_name as userName, note from user where id = #{id}
+    </select>
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into user(user_name, note) value(#{userName},#{note})
+    </insert>
+</mapper>

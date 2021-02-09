@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 19 18:36:19 CST 2021
+https\://repo.maven.apache.org/maven2/.lastUpdated=1611052579141
+@default-alimaven-http\://maven.aliyun.com/nexus/content/repositories/central/.lastUpdated=1611051029813
+http\://maven.aliyun.com/nexus/content/repositories/central/.error=Could not transfer artifact org.apache.maven.plugins\:maven-compiler-plugin\:pom\:3.8.1 from/to alimaven (http\://maven.aliyun.com/nexus/content/repositories/central/)\: Transfer failed for http\://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom

@@ -88,6 +88,14 @@ under the License.
    | specification in this list marked as active will be used.
    |-->
   <proxies>
+    <proxy>
+      <id>optional</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>127.0.0.1</host>
+      <port>8889</port>
+      <nonProxyHosts></nonProxyHosts>
+    </proxy>
     <!-- proxy
      | Specification for one proxy, to be used in connecting to the network.
      |
@@ -144,12 +152,12 @@ under the License.
    | server for that repository.
    |-->
   <mirrors>
-    <mirror>
+    <!-- <mirror>
       <id>alimaven</id>
       <mirrorOf>central</mirrorOf>
       <name>aliyun maven</name>
       <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
-    </mirror>
+    </mirror> -->
     <!-- mirror
      | Specifies a repository mirror site to use instead of a given repository. The repository that
      | this mirror serves has an ID that matches the mirrorOf element of this mirror. IDs are used

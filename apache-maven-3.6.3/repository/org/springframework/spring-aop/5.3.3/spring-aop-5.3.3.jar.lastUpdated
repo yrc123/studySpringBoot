@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 19 18:35:43 CST 2021
+https\://repo.maven.apache.org/maven2/.lastUpdated=1611052543903
+@default-alimaven-http\://maven.aliyun.com/nexus/content/repositories/central/.lastUpdated=1611050890885
+http\://maven.aliyun.com/nexus/content/repositories/central/.error=Could not transfer artifact org.springframework\:spring-aop\:jar\:5.3.3 from/to alimaven (http\://maven.aliyun.com/nexus/content/repositories/central/)\: Transfer failed for http\://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-aop/5.3.3/spring-aop-5.3.3.jar
