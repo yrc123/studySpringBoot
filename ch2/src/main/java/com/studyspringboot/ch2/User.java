@@ -1,5 +1,7 @@
 package com.studyspringboot.ch2;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -9,6 +11,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Component("user1")
+@Schema(name = "user对象1",description = "user对象2")
 public class User {
 
     //依赖注入
@@ -19,6 +22,7 @@ public class User {
     }
     public User(){}
 
+    @Schema(example = "114514",description = "用户id")
     @Value("1")
     private Long id;
     @Value("ctest")
